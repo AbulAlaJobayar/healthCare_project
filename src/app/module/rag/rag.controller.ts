@@ -14,6 +14,20 @@ const getStatus = catchAsync(async (req: Request, res: Response) => {
     },
   });
 });
+
+const IngestDoctorData = catchAsync(async(req:Request,res:Response)=>{
+const result = await RagService.ingestDoctorData(req.body);
+
+ sendResponse(res,{
+    httpStatusCode: httpStatus.OK,
+    success: true,
+    message: "Doctor data ingested successfully",   
+    data:result
+ })   
+})
+  
+  
 export const RagController = {
   getStatus,
+  IngestDoctorData,
 };

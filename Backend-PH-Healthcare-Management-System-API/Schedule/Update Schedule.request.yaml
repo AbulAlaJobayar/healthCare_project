@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/schedules/019c614a-2362-761d-b021-771beb22a4c5
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \        \"startDate\": \"2026-02-19\",\r
+
+    \        \"endDate\": \"2026-02-19\",\r
+
+    \        \"startTime\" : \"15:00\",\r
+
+    \        \"endTime\" : \"15:30\"\r
+
+    \    }"
+order: 4000

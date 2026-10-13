@@ -1,0 +1,27 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/doctor-schedules/update-my-doctor-schedule
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"scheduleIds\": [\r
+
+    \    // \"019c614a-1b66-7668-9587-ddb75a6f0fe8\",\r
+
+    \    // \"019c614a-2141-7425-94aa-720140d05be3\",\r
+
+    \    // \"019c614a-1f1f-76fd-8f56-5f59f4682276\"\r
+
+    \    {\r
+
+    \        \"shouldDelete\" : true,\r
+
+    \        \"id\" : \"019c614a-1b66-7668-9587-ddb75a6f0fe8\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+order: 5000

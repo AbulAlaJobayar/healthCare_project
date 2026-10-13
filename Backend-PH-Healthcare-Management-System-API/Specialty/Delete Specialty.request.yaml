@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/specialties/019c2965-1506-706d-8613-38de4bee68cc
+method: DELETE
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\" : \"Neurology\"\r
+
+    }"
+order: 3000

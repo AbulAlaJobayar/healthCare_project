@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/appointments/my-single-appointment/45454e574676
+method: GET
+order: 3000

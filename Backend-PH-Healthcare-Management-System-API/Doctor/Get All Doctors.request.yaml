@@ -1,0 +1,47 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/doctors
+method: GET
+queryParams:
+  - key: page
+    value: "1"
+    disabled: true
+  - key: limit
+    value: "2"
+    disabled: true
+  - key: searchTerm
+    value: Cardiology
+    disabled: true
+    description: issue
+  - key: gender
+    value: FEMALE
+    disabled: true
+  - key: appointmentFee[gt]
+    value: "1000"
+    disabled: true
+    description: issue
+  - key: appointmentFee[lte]
+    value: "1500"
+    disabled: true
+    description: issue
+  - key: fields
+    value: name,email
+    disabled: true
+  - key: sortBy
+    value: name
+    disabled: true
+  - key: sortOrder
+    value: asc
+    disabled: true
+  - key: experience[gt]
+    value: "7"
+    disabled: true
+  - key: include
+    value: specialties
+    disabled: true
+  - key: user.role
+    value: DOCTOR
+    disabled: true
+  - key: specialties.specialty.title
+    value: Cardiology2
+    disabled: true
+order: 1000

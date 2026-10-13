@@ -1,0 +1,39 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/users/create-doctor
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"password\": \"docPass1002\",\r
+
+    \  \"doctor\": {\r
+
+    \    \"name\": \"Dr. Tanvir Ahmed\",\r
+
+    \    \"email\": \"tanvir.ahmed@example.com\",\r
+
+    \    \"contactNumber\": \"+8801922222222\",\r
+
+    \    \"address\": \"Mirpur, Dhaka\",\r
+
+    \    \"registrationNumber\": \"BMDC-200102\",\r
+
+    \    \"experience\": 10,\r
+
+    \    \"gender\": \"MALE\",\r
+
+    \    \"appointmentFee\": 1300,\r
+
+    \    \"qualification\": \"MBBS, MS (Orthopedics)\",\r
+
+    \    \"currentWorkingPlace\": \"Popular Diagnostic Center\",\r
+
+    \    \"designation\": \"Orthopedic Surgeon\"\r
+
+    \  },\r
+
+    \  \"specialties\": [\"019c4eec-f32b-7694-bdc7-2a1037d74e8b\"]\r
+
+    }"
+order: 1000

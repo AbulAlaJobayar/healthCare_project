@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/doctor-schedules/delete-my-doctor-schedule/45453654567345
+method: DELETE
+order: 6000

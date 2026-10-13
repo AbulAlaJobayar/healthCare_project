@@ -1,0 +1,10 @@
+workspace:
+  id: e55b8108-44a2-44c7-8a0b-182a010ecc35
+localResources:
+  collections:
+    - ../Backend-PH-Healthcare-Management-System-API
+cloudResources:
+  collections:
+    ../Backend-PH-Healthcare-Management-System-API: 20207336-4aca04b4-9181-4bb2-9d2d-9d71d0d08f1a
+  globals:
+    ../postman/globals/workspace.globals.yaml: 7a161498-3d82-490f-837a-f61e5eb82881

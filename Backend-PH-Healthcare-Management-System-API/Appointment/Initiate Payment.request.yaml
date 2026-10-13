@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/appointments/initiate-payment/019c616c-5889-7636-8a06-92db8fad1bc9
+method: POST
+order: 7000

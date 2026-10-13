@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/schedules/019c614a-2362-761d-b021-771beb22a4c5
+method: GET
+order: 3000

@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/appointments/change-appointment-status/34635635346
+method: PATCH
+order: 5000

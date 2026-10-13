@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://localhost:5000/api/v1/appointments/book-appointment-with-pay-later
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"doctorId\": \"019c4eef-9c4f-75c5-baa8-5802f28bbbb8\",\r
+
+    \  \"scheduleId\": \"019c614a-1f1f-76fd-8f56-5f59f4682276\"\r
+
+    }"
+order: 6000
